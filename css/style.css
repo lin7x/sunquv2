@@ -19,6 +19,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 100;
+    position: fixed;
 }
 
 .logo img {
@@ -36,13 +38,13 @@
 {
     display: flex;
     list-style: none;
-    margin-left: 100px;
+    margin-left: 240px;
 }
 
 .menu_items li 
 {
     border-radius: 3px;
-    margin: 0 5px;
+    margin: 0 30px;
 }
 
 .menu_items li a
@@ -51,8 +53,10 @@
     text-decoration: none;
     font-size: 18px;
     display: block;
-    text-transform: uppercase;
+    font-family:'Quattrocento Sans', sans-serif;
+    font-weight: 700;
     color: #fff;
+    max-width: 2000px;
 }
 
 .menu_items li:hover, li:active
@@ -74,6 +78,7 @@
 ul.show
 {
     top: 80px;
+    margin-right: 90px;
 }
 
 @media screen and (max-width: 1100px) 
@@ -92,6 +97,8 @@ ul.show
         padding-left: 100px;
         width: 10%;
     }
+
+    
 
 
     
@@ -132,8 +139,8 @@ ul.show
     .menu_items
     {
         position: fixed;
-        width: 130vw;
-        height: calc(100% - 250px);
+        width: 180vw;
+        height: calc(100% - 50px);
         background: #414141;
         top: -100vh;
         text-align: center;
@@ -168,7 +175,12 @@ ul.show
     .logo
     {
         padding-left: 35px;
+    }
 
+    .logo img 
+    {
+        width: 170px;
+        height: 60px;
     }
 
     /* Responsive main */
@@ -182,12 +194,14 @@ ul.show
     .nav-div-section__contenido
     {
         width: 100%;
+        margin-top: 70px;
         
     }
 
     .nav-div-img__image1
     {
         width: 100%;
+        margin-top: 0;
     }
 
     .nav-div-img__image1 img 
