@@ -8,3 +8,12 @@ p{
     margin-top: 40px;
 
 }
+
+@media screen and (max-width: 858px)
+{
+    p
+    {
+        font-size: 13px;
+        width: 300px;
+    }
+}
