@@ -147,6 +147,10 @@ ul.show
         padding-left: 35px;
     }
 
+    label.logo
+    {
+        margin-top: 8px;
+    }
     
 
     /* Responsive main */
