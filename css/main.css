@@ -32,6 +32,15 @@
     margin-top: 100px;
 }
 
+.nav-div-section__contenido p
+{
+    color: white;
+}
+.nav-div-section__contenido h1
+{
+    color: white;
+}
+
 .button
 {
     
