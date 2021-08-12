@@ -117,7 +117,7 @@ ul.show
     .menu_items
     {
         position: fixed;
-        width: 100vw;
+        width: 150vw;
         height: calc(100% - 65px);
         background: #414141;
         top: -100vh;
