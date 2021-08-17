@@ -1,14 +1,21 @@
 @import 'main.css';
 @import 'texto-h1.css';
-@import 'textp-h2.css';
 @import 'texto-p.css';
 @import 'button.css';
+@import 'onpremise.css';
+@import 'foros-home.css';
+@import 'footer.css';
 *, *::before, *::after
 {
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+}
+
+.vector1
+{
+    margin-top: -10px;
 }
 
 .menu 
@@ -31,14 +38,14 @@
 
 .logo
 {
-    padding: 0 80px;
+    margin-left: -100px;
 }
 
 .menu_items
 {
     display: flex;
     list-style: none;
-    margin-right: 30px;
+    margin-right: -130px;
 }
 
 .menu_items li 
@@ -86,8 +93,8 @@ ul.show
 {
     .logo
     {
-        padding-left: 35px;
-
+        /* padding-left: 35px; */
+        margin-right: 100px;
     }
 
     .logo img{
@@ -113,6 +120,7 @@ ul.show
     .btn_menu
     {
         display: inline-flex;
+        margin-right: 0;
     }
     .menu_items
     {
@@ -144,7 +152,8 @@ ul.show
     .logo
     {
         font-size: 25px;
-        padding-left: 35px;
+        /* padding-left: 35px; */
+        margin-left: 0;
     }
 
     label.logo
@@ -168,10 +177,17 @@ ul.show
         
     }
 
+    .nav-div-section__contenido button
+    {
+        position: relative;
+        top: 350px;
+    }
+
     .nav-div-img__image1
     {
         width: 100%;
-        margin-top: 0;
+        margin-top: -150px;
+        margin-bottom: 200px;
     }
 
     .nav-div-img__image1 img 
@@ -199,6 +215,129 @@ ul.show
     .infra-cloud--image img 
     {
         width: 250px;
+    }
+
+
+    /* INFRAESTRUCTURA ON-PREMISE */
+
+    .contenido__Infra-on-premise
+    {
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .texto-infra-onpremise
+    {
+        width: 100%;
+    }
+
+    .botoner__infra-onpremise
+    {
+        width: 100%;
+        max-width: 300px;
+        
+    }
+
+    .image__infra-onpremise
+    {
+        margin-top: -130px;
+        width: 100%;
+        margin-bottom: 200px;
+    }
+
+    .image__infra-onpremise img {
+        width: 200px;
+    }
+
+    .botoner__infra-onpremise
+    {
+        position:relative;
+        top: 250px;
+        
+    }
+
+    .botoner__infra-onpremise button 
+    {
+        width: 90px;
+        height: 40px;
+        
+    }
+
+    .botoner__infra-onpremise button a 
+    {
+        font-size: 12px;
+        align-items: center;
+        width: 90px;
+        height: 40px;
+    }
+
+    /* FOROS */
+
+
+    .foro-contenido h1 
+    {
+        font-size: 23px;
+        font-style: italic;
+    }
+    .index-foros
+    {
+        flex-direction: column;
+    }
+
+    .foros 
+    {
+        width: 250px;
+        margin-top: 0;
+    }
+
+    .foro1 
+    {
+        margin-top: 70px;
+    }
+
+    .texto-foro p 
+    {
+        font-size: 16px;
+    }
+
+    .image-foro img 
+    {
+        margin-top: 50px;
+        width: 170px;
+    }
+
+    /* FOOTER */
+    
+    .footer 
+    {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footer__sunqu-icon
+    {
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    
+
+    .footer__rights-reserved
+    {
+        width: 100%;
+        
+    }
+
+
+    .footer__rights-reserved h3
+    {
+        font-size: 13px;
+    }
+
+    .footer__social
+    {
+        width: 100%;
+        margin: 30px auto;
     }
 
 }
