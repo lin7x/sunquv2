@@ -68,3 +68,32 @@
     
 }
 
+.leer-mas
+{
+    width: 100%;
+    display: flex;
+}
+.leer-mas button
+{
+    background-color: #4DACE1;
+    width: 80%;
+    margin: 10px auto;
+    
+
+}
+
+.leer-mas button a 
+{
+    text-align: center;
+    width: 100%;
+    height: inherit;
+    color: white;
+}
+
+
+.leer-mas button a:hover 
+{
+    border: 2px solid #4DACE1;
+    background-color: white;
+    color: #4DACE1;
+}
